@@ -7,6 +7,7 @@ function Data(){
     .then((res)=>{
         setData(res);
     })
+    return data;
 }
 
-export default {Data,data}
+export default Data;
