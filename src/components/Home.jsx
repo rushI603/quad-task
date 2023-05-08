@@ -13,7 +13,8 @@ const Home = () => {
     )
   return (
     <div>
-      {
+      Hello
+      {/* {
         data.forEach(movie=>{
           <>
             <img src={"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3ANo_image_available.svg&psig=AOvVaw0gpZzQfootI1upJoC8vteQ&ust=1683632829134000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCs9ZjT5f4CFQAAAAAdAAAAABAE" } className='image'/>
@@ -23,7 +24,7 @@ const Home = () => {
             </div>
           </>
         })
-      }
+      } */}
       <img src={imgSrc} className='image'/>
       <div className='description'>
         The Rise<br/>
