@@ -8,14 +8,12 @@ function App() {
   
   return (
     <div className="App">
-       <Router>
+      
           <Routes>
             <Route exact path="/" component={Home} />
             {/* <Route path="/about" component={About} /> */}
           </Routes>
-        </Router>
-      
-
+       
      </div> 
   );
 }
